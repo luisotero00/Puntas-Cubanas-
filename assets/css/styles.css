@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #F2B544;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+}
+.navbar > .btn{
+    color: #F2B544;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(112, 48, 48);
+    padding: 20px;
+    bottom: 3px;
+    margin: auto;
+}
+
+.footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+}
+
+
+.textFoot{
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+/*Inicio*/
+.bodyIndex{
+    background-color: #F2B544;
+}
+.recomendados{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    background-color: brown;
+    color: white;
+}
+h1{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 2.5cm;
+    text-align: center;
+}
+.cardPuntas{
+    font-family: 'Patrick Hand', cursive;
+    background-color: rgb(112, 48, 48);
+    color: white;
+}
