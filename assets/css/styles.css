@@ -8,6 +8,7 @@
     background-color: #F2B544;
     color: black;
     font-family: 'Patrick Hand', cursive;
+    width: 100%;
 }
 .navbar > .btn{
     color: #F2B544;
@@ -15,11 +16,11 @@
 
 .footer{
     display: flex;
-    flex-direction: row;
     background-color: rgb(112, 48, 48);
-    padding: 20px;
-    bottom: 3px;
     margin: auto;
+    position: absolute;
+    width: 100%;
+    align-self: flex-end;
 }
 
 .footer a{
@@ -42,6 +43,14 @@
 /*Inicio*/
 .bodyIndex{
     background-color: #F2B544;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+.headerIndex{
+    background-image: url(../img/descarga.png);
+    background-size: contain;
 }
 .recomendados{
     text-align: center;
@@ -59,4 +68,26 @@ h1{
     font-family: 'Patrick Hand', cursive;
     background-color: rgb(112, 48, 48);
     color: white;
+    border: solid black;
+}
+.imgIndex{
+    width: 100%;
+    align-self: center;
+    padding: 8px;
+    
+}
+
+/*Carta*/
+.bodyCarta{
+    background-color: #F2B544;
+}
+.comida{
+    background-color: rgb(112, 48, 48);
+}
+.comida > h3{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5cm;
+    font-weight: bold;
+    color: whitesmoke;
 }
