@@ -50,13 +50,15 @@
 }
 .headerIndex{
     background-image: url(../img/descarga.png);
-    background-size: contain;
+    background-size: auto;
 }
 .recomendados{
     text-align: center;
     font-family: 'Patrick Hand', cursive;
-    background-color: brown;
     color: white;
+    font-weight: bold;
+    font-size: 2cm;
+    background-color: rgb(112, 48, 48);
 }
 h1{
     font-family: 'Patrick Hand', cursive;
@@ -91,3 +93,7 @@ h1{
     font-weight: bold;
     color: whitesmoke;
 }
+
+.tarjetasMenu{
+    border: 3px solid;
+    border-radius: 12px;
