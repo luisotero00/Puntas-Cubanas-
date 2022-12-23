@@ -8,20 +8,14 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0rem;
 }
 
-nav>a:hover {
-    color: white;
-}
-
 nav {
     background-color: #F2B544;
     color: black;
     font-family: 'Patrick Hand', cursive;
     width: 100%;
+    font-size: 0.8cm;
 }
 
-.navbar>.btn {
-    color: #F2B544;
-}
 
 footer {
     background-color: rgb(112, 48, 48);
@@ -89,6 +83,18 @@ h1 {
     padding: 8px;
 
 }
+.videoInicio{
+    display: flex;
+    justify-content: center;
+}
+.brindando > h4 {
+    margin: 15px;
+    font-size: 1.5cm;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    color: black;
+    text-align: center;
+}
 
 /*Carta*/
 .bodyCarta {
@@ -122,8 +128,37 @@ h1 {
     background-color: brown;
 }
 
-.carrusel{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.cardPuntas {
+	-webkit-animation: rotate-bl 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: rotate-bl 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
+@-webkit-keyframes rotate-bl {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      -webkit-transform-origin: bottom left;
+              transform-origin: bottom left;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+      -webkit-transform-origin: bottom left;
+              transform-origin: bottom left;
+    }
+  }
+  @keyframes rotate-bl {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      -webkit-transform-origin: bottom left;
+              transform-origin: bottom left;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+      -webkit-transform-origin: bottom left;
+              transform-origin: bottom left;
+    }
+  }
+
+  /*Contacto*/
