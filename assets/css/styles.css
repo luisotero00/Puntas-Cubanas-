@@ -16,30 +16,20 @@ nav{
     color: #F2B544;
 }
 
-.footer{
-    display: flex;
+footer{
     background-color: rgb(112, 48, 48);
-    margin: auto;
-    position: absolute;
-    width: 100%;
-    align-self: flex-end;
+    bottom: 0;
 }
-
-.footer a{
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 15px;
-    padding: 20px;
-    font-family: 'Patrick Hand', cursive;
-    font-weight: bold;
-}
-
-
-.textFoot{
-    align-items: center;
-    flex-direction: column;
-    color: whitesmoke;
+.iconsFooter > a{
+    color: rgb(255, 255, 255);
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.textFooter{
+    color: rgb(255, 255, 255);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 0.6cm;
 }
 
 /*Inicio*/
