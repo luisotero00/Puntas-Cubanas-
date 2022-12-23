@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.navbar{
+nav > a:hover{
+    color: white;
+}
+nav{
     background-color: #F2B544;
     color: black;
     font-family: 'Patrick Hand', cursive;
@@ -60,6 +62,7 @@
     font-size: 2cm;
     background-color: rgb(112, 48, 48);
 }
+
 h1{
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
@@ -97,3 +100,11 @@ h1{
 .tarjetasMenu{
     border: 3px solid;
     border-radius: 12px;
+}
+.btnMenu{
+    background-color: black;
+    border: white;
+}
+.btnMenu:hover{
+    background-color: brown;
+}
