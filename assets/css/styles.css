@@ -1,50 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-nav > a:hover{
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0rem;
+}
+
+nav>a:hover {
     color: white;
 }
-nav{
+
+nav {
     background-color: #F2B544;
     color: black;
     font-family: 'Patrick Hand', cursive;
     width: 100%;
 }
-.navbar > .btn{
+
+.navbar>.btn {
     color: #F2B544;
 }
 
-footer{
+footer {
     background-color: rgb(112, 48, 48);
     bottom: 0;
 }
-.iconsFooter > a{
+
+.iconsFooter>a {
     color: rgb(255, 255, 255);
     margin: 10px;
     display: flex;
     flex-direction: column;
 }
-.textFooter{
+
+.textFooter {
     color: rgb(255, 255, 255);
     font-family: 'Patrick Hand', cursive;
     font-size: 0.6cm;
 }
 
 /*Inicio*/
-.bodyIndex{
+.bodyIndex {
     background-color: #F2B544;
     position: relative;
     margin: 0;
     padding: 0;
 
 }
-.headerIndex{
+
+.headerIndex {
     background-image: url(../img/descarga.png);
     background-size: auto;
 }
-.recomendados{
+
+main{
+    min-height: calc(100vh - 200px);
+    margin: 0;
+}
+
+.recomendados {
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     color: white;
@@ -53,33 +69,37 @@ footer{
     background-color: rgb(112, 48, 48);
 }
 
-h1{
+h1 {
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     font-size: 2.5cm;
     text-align: center;
 }
-.cardPuntas{
+
+.cardPuntas {
     font-family: 'Patrick Hand', cursive;
     background-color: rgb(112, 48, 48);
     color: white;
     border: solid black;
 }
-.imgIndex{
+
+.imgIndex {
     width: 100%;
     align-self: center;
     padding: 8px;
-    
+
 }
 
 /*Carta*/
-.bodyCarta{
+.bodyCarta {
     background-color: #F2B544;
 }
-.comida{
+
+.comida {
     background-color: rgb(112, 48, 48);
 }
-.comida > h3{
+
+.comida>h3 {
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     font-size: 2.5cm;
@@ -87,14 +107,23 @@ h1{
     color: whitesmoke;
 }
 
-.tarjetasMenu{
+.tarjetasMenu {
+    margin-top: 80px;
     border: 3px solid;
     border-radius: 12px;
 }
-.btnMenu{
+
+.btnMenu {
     background-color: black;
     border: white;
 }
-.btnMenu:hover{
+
+.btnMenu:hover {
     background-color: brown;
+}
+
+.carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
