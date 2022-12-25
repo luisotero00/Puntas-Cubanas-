@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "navbar navbar navbar"
+      "main main main"
+      "footer footer footer"; 
+  }
+
 .container,.row,.container-fluid{
     margin: 0;
 }
@@ -187,3 +198,53 @@ h1 {
   }
 
   /*Contacto*/
+  /*Puntos de venta*/
+  .bodyPuntos{
+    background-color: #F2B544;
+  }
+  .puntoFlex{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2cm;
+    justify-content: space-around;
+}
+.titlePuntos{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2cm;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(112, 48, 48);
+    color: whitesmoke;
+
+}
+
+.puntosVenta{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(112, 48, 48);
+    width: 600px;
+    border: black solid 2px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.puntosVenta > h2{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 1cm;
+    margin: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+.puntosVenta > p{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 1cm;
+    margin: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.mapa{
+    width: auto;
+}
