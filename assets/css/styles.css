@@ -198,6 +198,31 @@ h1 {
   }
 
   /*Contacto*/
+.bodyContact{
+    background-color: #F2B544;
+}
+.contactanos{
+    background-color: rgb(112, 48, 48);
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.6cm;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    background-color: rgb(112, 48, 48);
+    width: 390px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    color: whitesmoke;
+}
   /*Puntos de venta*/
   .bodyPuntos{
     background-color: #F2B544;
@@ -247,4 +272,77 @@ h1 {
 
 .mapa{
     width: auto;
+}
+
+/*Nosotros*/
+
+.bodyUs{
+    background-color: #F2B544;
+}
+.flexNosotros > h3{
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.8cm;
+    rgb(112, 48, 48)
+}
+.flexNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloQuienes{
+    font-family: 'Patrick Hand', cursive;
+    color: #F2B544;
+    font-size: 3cm;
+    text-align: center;
+}
+
+.quienes{
+    display: block;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 0.8cm;
+    font-weight: bold;
+    background-color: rgb(112, 48, 48);
+    width: 390px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    color: whitesmoke;
+    
+}
+
+.quienes img{
+    width: 100%;
+    border: solid 3px;
+    border-radius: 3px;   
+}
+
+.fundadora{
+    display: block;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 0.8cm;
+    font-weight: bold;
+    background-color: rgb(112, 48, 48);
+    width: 390px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    color: whitesmoke;
+}
+
+.fundadora h3{
+    font-family: 'Patrick Hand', cursive;
+    color: #F2B544;
+    font-size: 1.5cm;
+    text-align: center;
+}
+
+.fundadora img{
+    width: 100%;
+    border: solid 3px;
+    border-radius: 3px;  
 }
