@@ -1,0 +1,16 @@
+nav {
+    background-color: #F2B544;
+    color: black;
+    font-family: 'Patrick Hand', cursive;
+    width: 100%;
+    font-size: 0.8cm;
+    > .navbar-nav{
+      > a {
+            &:hover{
+                    background-color: rgb(112, 48, 48) !important;
+                    color: whitesmoke !important;
+                }
+            }
+        
+    }
+}

@@ -1,4 +1,7 @@
 @import "reset";
+@import "nav";
+@import "footer";
+@import "index";
 .grid {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
@@ -10,123 +13,8 @@
       "footer footer footer"; 
   }
 
-.container,.row,.container-fluid{
-    margin: 0;
-}
-h1,h2,h3,h4,h5,h6 {
-    margin-bottom: 0rem;
-}
-
-nav {
-    background-color: #F2B544;
-    color: black;
-    font-family: 'Patrick Hand', cursive;
-    width: 100%;
-    font-size: 0.8cm;
-}
-
-.navbar-nav > li > a:hover{
-    background-color: rgb(112, 48, 48) !important;
-    color: whitesmoke !important;
-}
 
 
-footer {
-    background-color: rgb(112, 48, 48);
-    bottom: 0;
-}
-
-.iconsFooter > a > i {
-    color: rgb(255, 255, 255);
-    margin: 10px;
-    
-}
-.iconsFooter{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Patrick Hand', cursive;
-}
-.iconsFooter > a{
-    margin-left:  6px;
-    color: rgb(255, 255, 255);
-    font-family: 'Patrick Hand', cursive;
-    text-decoration: none;
-}
-
-.textFooter {
-    color: rgb(255, 255, 255);
-    font-family: 'Patrick Hand', cursive;
-    font-size: 0.6cm;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: center;
-}
-
-/*Inicio*/
-.bodyIndex {
-    background-color: #F2B544;
-    position: relative;
-    margin: 0;
-    padding: 0;
-
-}
-
-
-.headerIndex {
-    background-image: url(../img/descarga.png);
-    background-size: auto;
-}
-
-main{
-    min-height: calc(100vh - 200px);
-    margin: 0;
-}
-
-.recomendados {
-    text-align: center;
-    font-family: 'Patrick Hand', cursive;
-    color: white;
-    font-weight: bold;
-    font-size: 2cm;
-    background-color: rgb(112, 48, 48);
-}
-
-h1 {
-    font-family: 'Patrick Hand', cursive;
-    font-weight: bold;
-    font-size: 2.5cm;
-    text-align: center;
-}
-
-.cardPuntas {
-    font-family: 'Patrick Hand', cursive;
-    background-color: rgb(112, 48, 48);
-    color: white;
-    border: solid black;
-}
-
-.imgIndex {
-    width: 100%;
-    align-self: center;
-    padding: 8px;
-
-}
-.videoInicio{
-    display: flex;
-    justify-content: center;
-}
-.brindando > h4 {
-    margin: 15px;
-    font-size: 1.5cm;
-    font-weight: bold;
-    font-family: 'Patrick Hand', cursive;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    border: solid rgb(0, 0, 0);
-    background-color: rgb(112, 48, 48);
-    border-radius: 15px;
-}
 
 /*Carta*/
 .bodyCarta {

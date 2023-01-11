@@ -1,0 +1,28 @@
+footer {
+    background-color: rgb(112, 48, 48);
+    bottom: 0;
+    > .iconsFooter {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Patrick Hand', cursive;
+        > a{
+            margin-left:  6px;
+            color: rgb(255, 255, 255);
+            font-family: 'Patrick Hand', cursive;
+            text-decoration: none;
+            > i {
+                color: rgb(255, 255, 255);
+                margin: 10px;
+            }
+        }
+    }
+    > .textFooter {
+        color: rgb(255, 255, 255);
+        font-family: 'Patrick Hand', cursive;
+        font-size: 0.6cm;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+    }
+}

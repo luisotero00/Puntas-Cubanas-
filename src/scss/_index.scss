@@ -1,0 +1,61 @@
+.bodyIndex {
+    background-color: #F2B544;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    h1 {
+        font-family: 'Patrick Hand', cursive;
+        font-weight: bold;
+        font-size: 2.5cm;
+        text-align: center;
+    }
+    >.headerIndex {
+        background-image: url(../img/descarga.png);
+        background-size: auto;
+    }
+    >.mainIndex{
+        >.historiaP{
+            >h3{
+                font-family: 'Patrick Hand', cursive;
+                font-size: 1.5cm;
+                font-weight: bold;
+                text-align: center;
+                color: whitesmoke;
+                background-color: rgb(112, 48, 48) ;
+            }
+            >p{
+                font-family: 'Patrick Hand', cursive;
+                font-size: 1cm;
+                font-weight: bold;
+                color: whitesmoke;
+                border: solid 10px;
+                background-color: rgb(112, 48, 48);
+                padding: 8px;
+            }
+            >img{
+                display: block;
+                margin: auto;
+                border: solid 8px;
+                border-radius: 10px;
+                width: 100%;
+                height: auto;
+            }
+        }
+        >.brindando{
+            >h4{
+             margin: 15px;
+             font-size: 1.5cm;
+             font-weight: bold;
+             font-family: 'Patrick Hand', cursive;
+             color: rgb(255, 255, 255);
+             text-align: center;
+             border: solid rgb(0, 0, 0);
+             background-color: rgb(112, 48, 48);
+             border-radius: 15px;
+            }
+        } 
+    }
+}
+
+
+

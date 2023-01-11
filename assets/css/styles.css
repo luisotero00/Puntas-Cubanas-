@@ -4,20 +4,17 @@
   box-sizing: border-box;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas: "navbar navbar navbar" "main main main" "footer footer footer";
-}
-
 .container, .row, .container-fluid {
   margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0rem;
+}
+
+main {
+  min-height: calc(100vh - 200px);
+  margin: 0;
 }
 
 nav {
@@ -27,8 +24,7 @@ nav {
   width: 100%;
   font-size: 0.8cm;
 }
-
-.navbar-nav > li > a:hover {
+nav > .navbar-nav > a:hover {
   background-color: rgb(112, 48, 48) !important;
   color: whitesmoke !important;
 }
@@ -37,26 +33,22 @@ footer {
   background-color: rgb(112, 48, 48);
   bottom: 0;
 }
-
-.iconsFooter > a > i {
-  color: rgb(255, 255, 255);
-  margin: 10px;
-}
-
-.iconsFooter {
+footer > .iconsFooter {
   display: flex;
   flex-direction: column;
   font-family: "Patrick Hand", cursive;
 }
-
-.iconsFooter > a {
+footer > .iconsFooter > a {
   margin-left: 6px;
   color: rgb(255, 255, 255);
   font-family: "Patrick Hand", cursive;
   text-decoration: none;
 }
-
-.textFooter {
+footer > .iconsFooter > a > i {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+footer > .textFooter {
   color: rgb(255, 255, 255);
   font-family: "Patrick Hand", cursive;
   font-size: 0.6cm;
@@ -66,59 +58,48 @@ footer {
   justify-content: center;
 }
 
-/*Inicio*/
 .bodyIndex {
   background-color: #F2B544;
   position: relative;
   margin: 0;
   padding: 0;
 }
-
-.headerIndex {
-  background-image: url(../img/descarga.png);
-  background-size: auto;
-}
-
-main {
-  min-height: calc(100vh - 200px);
-  margin: 0;
-}
-
-.recomendados {
-  text-align: center;
-  font-family: "Patrick Hand", cursive;
-  color: white;
-  font-weight: bold;
-  font-size: 2cm;
-  background-color: rgb(112, 48, 48);
-}
-
-h1 {
+.bodyIndex h1 {
   font-family: "Patrick Hand", cursive;
   font-weight: bold;
   font-size: 2.5cm;
   text-align: center;
 }
-
-.cardPuntas {
-  font-family: "Patrick Hand", cursive;
-  background-color: rgb(112, 48, 48);
-  color: white;
-  border: solid black;
+.bodyIndex > .headerIndex {
+  background-image: url(../img/descarga.png);
+  background-size: auto;
 }
-
-.imgIndex {
-  width: 100%;
-  align-self: center;
+.bodyIndex > .mainIndex > .historiaP > h3 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.5cm;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(112, 48, 48);
+}
+.bodyIndex > .mainIndex > .historiaP > p {
+  font-family: "Patrick Hand", cursive;
+  font-size: 1cm;
+  font-weight: bold;
+  color: whitesmoke;
+  border: solid 10px;
+  background-color: rgb(112, 48, 48);
   padding: 8px;
 }
-
-.videoInicio {
-  display: flex;
-  justify-content: center;
+.bodyIndex > .mainIndex > .historiaP > img {
+  display: block;
+  margin: auto;
+  border: solid 8px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
-
-.brindando > h4 {
+.bodyIndex > .mainIndex > .brindando > h4 {
   margin: 15px;
   font-size: 1.5cm;
   font-weight: bold;
@@ -128,6 +109,14 @@ h1 {
   border: solid rgb(0, 0, 0);
   background-color: rgb(112, 48, 48);
   border-radius: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "navbar navbar navbar" "main main main" "footer footer footer";
 }
 
 /*Carta*/
