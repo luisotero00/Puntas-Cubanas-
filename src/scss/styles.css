@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container, .row, .container-fluid {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0rem;
+}
+
+main {
+  min-height: calc(100vh - 200px);
+  margin: 0;
+}
+
+nav {
+  background-color: #F2B544;
+  color: black;
+  font-family: "Patrick Hand", cursive;
+  width: 100%;
+  font-size: 0.8cm;
+}
+nav > .navbar-nav > a:hover {
+  background-color: rgb(112, 48, 48) !important;
+  color: whitesmoke !important;
+}
+
+footer {
+  background-color: rgb(112, 48, 48);
+  bottom: 0;
+}
+footer > .iconsFooter {
+  display: flex;
+  flex-direction: column;
+  font-family: "Patrick Hand", cursive;
+}
+footer > .iconsFooter > a {
+  margin-left: 6px;
+  color: rgb(255, 255, 255);
+  font-family: "Patrick Hand", cursive;
+  text-decoration: none;
+}
+footer > .iconsFooter > a > i {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+footer > .textFooter {
+  color: rgb(255, 255, 255);
+  font-family: "Patrick Hand", cursive;
+  font-size: 0.6cm;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+}
+
+.bodyIndex {
+  background-color: #F2B544;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.bodyIndex h1 {
+  font-family: "Patrick Hand", cursive;
+  font-weight: bold;
+  font-size: 2.5cm;
+  text-align: center;
+}
+.bodyIndex > .headerIndex {
+  background-image: url(../img/descarga.png);
+  background-size: auto;
+}
+.bodyIndex > .mainIndex > .historiaP > h3 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.5cm;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(112, 48, 48);
+}
+.bodyIndex > .mainIndex > .historiaP > p {
+  font-family: "Patrick Hand", cursive;
+  font-size: 1cm;
+  font-weight: bold;
+  color: whitesmoke;
+  border: solid 10px;
+  background-color: rgb(112, 48, 48);
+  padding: 8px;
+}
+.bodyIndex > .mainIndex > .historiaP > img {
+  display: block;
+  margin: auto;
+  border: solid 8px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.bodyIndex > .mainIndex > .brindando > h4 {
+  margin: 15px;
+  font-size: 1.5cm;
+  font-weight: bold;
+  font-family: "Patrick Hand", cursive;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: solid rgb(0, 0, 0);
+  background-color: rgb(112, 48, 48);
+  border-radius: 15px;
+}
+
+.bodyCarta {
+  background-color: #F2B544;
+}
+.bodyCarta > .comida {
+  background-color: rgb(112, 48, 48);
+}
+.bodyCarta > .comida > h3 {
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 2.5cm;
+  font-weight: bold;
+  color: rgb(112, 48, 48);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "navbar navbar navbar" "main main main" "footer footer footer";
+}
+
+/*Carta*/
+.tarjetasMenu {
+  margin-top: 80px;
+  border: 3px solid;
+  border-radius: 12px;
+}
+
+.btnMenu {
+  background-color: black;
+  border: white;
+}
+
+.btnMenu:hover {
+  background-color: brown;
+}
+
+.cardPuntas {
+  -webkit-animation: rotate-bl 0.9s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-bl 0.9s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes rotate-bl {
+  0% {
+    transform: rotate(0);
+    transform-origin: bottom left;
+  }
+  100% {
+    transform: rotate(360deg);
+    transform-origin: bottom left;
+  }
+}
+@keyframes rotate-bl {
+  0% {
+    transform: rotate(0);
+    transform-origin: bottom left;
+  }
+  100% {
+    transform: rotate(360deg);
+    transform-origin: bottom left;
+  }
+}
+/*Contacto*/
+.bodyContact {
+  background-color: #F2B544;
+}
+
+.contactanos {
+  background-color: rgb(112, 48, 48);
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.6cm;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  font-family: "Patrick Hand", cursive;
+  font-weight: bold;
+  background-color: rgb(112, 48, 48);
+  width: 390px;
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  color: whitesmoke;
+}
+
+/*Puntos de venta*/
+.bodyPuntos {
+  background-color: #F2B544;
+}
+
+.puntoFlex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2cm;
+  justify-content: space-around;
+}
+
+.titlePuntos {
+  font-family: "Patrick Hand", cursive;
+  font-size: 2cm;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(112, 48, 48);
+  color: whitesmoke;
+}
+
+.puntosVenta {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(112, 48, 48);
+  width: 600px;
+  border: black solid 2px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.puntosVenta > h2 {
+  font-family: "Patrick Hand", cursive;
+  font-weight: bold;
+  font-size: 1cm;
+  margin: 5px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.puntosVenta > p {
+  font-family: "Patrick Hand", cursive;
+  font-weight: bold;
+  font-size: 1cm;
+  margin: 5px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.mapa {
+  width: auto;
+}
+
+/*Nosotros*/
+.bodyUs {
+  background-color: #F2B544;
+}
+
+.flexNosotros > h3 {
+  color: black;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.8cm;
+  color: rgb(112, 48, 48);
+}
+
+.flexNosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloQuienes {
+  font-family: "Patrick Hand", cursive;
+  color: #F2B544;
+  font-size: 3cm;
+  text-align: center;
+}
+
+.quienes {
+  display: block;
+  font-family: "Patrick Hand", cursive;
+  font-size: 0.8cm;
+  font-weight: bold;
+  background-color: rgb(112, 48, 48);
+  width: 390px;
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  color: whitesmoke;
+}
+
+.quienes img {
+  width: 100%;
+  border: solid 3px;
+  border-radius: 3px;
+}
+
+.fundadora {
+  display: block;
+  font-family: "Patrick Hand", cursive;
+  font-size: 0.8cm;
+  font-weight: bold;
+  background-color: rgb(112, 48, 48);
+  width: 390px;
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+  color: whitesmoke;
+}
+
+.fundadora h3 {
+  font-family: "Patrick Hand", cursive;
+  color: #F2B544;
+  font-size: 1.5cm;
+  text-align: center;
+}
+
+.fundadora img {
+  width: 100%;
+  border: solid 3px;
+  border-radius: 3px;
+}/*# sourceMappingURL=styles.css.map */

@@ -2,32 +2,25 @@
 @import "nav";
 @import "footer";
 @import "index";
+@import "carta";
+
 .grid {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "navbar navbar navbar"
-      "main main main"
-      "footer footer footer"; 
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "navbar navbar navbar"
+        "main main main"
+        "footer footer footer";
+}
+
 /*Carta*/
-.bodyCarta {
-    background-color: #F2B544;
-}
 
-.comida {
-    background-color: rgb(112, 48, 48);
-}
 
-.comida>h3 {
-    text-align: center;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2.5cm;
-    font-weight: bold;
-    color: whitesmoke;
-}
+
+
+
 
 .tarjetasMenu {
     margin-top: 80px;
@@ -45,43 +38,48 @@
 }
 
 .cardPuntas {
-	-webkit-animation: rotate-bl 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-	        animation: rotate-bl 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    -webkit-animation: rotate-bl 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: rotate-bl 0.9s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
+
 @-webkit-keyframes rotate-bl {
     0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-      -webkit-transform-origin: bottom left;
-              transform-origin: bottom left;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
     }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-      -webkit-transform-origin: bottom left;
-              transform-origin: bottom left;
-    }
-  }
-  @keyframes rotate-bl {
-    0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-      -webkit-transform-origin: bottom left;
-              transform-origin: bottom left;
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
-      -webkit-transform-origin: bottom left;
-              transform-origin: bottom left;
-    }
-  }
 
-  /*Contacto*/
-.bodyContact{
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+    }
+}
+
+@keyframes rotate-bl {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+    }
+}
+
+/*Contacto*/
+.bodyContact {
     background-color: #F2B544;
 }
-.contactanos{
+
+.contactanos {
     background-color: rgb(112, 48, 48);
     text-align: center;
     color: whitesmoke;
@@ -90,7 +88,8 @@
     font-weight: bold;
     margin-bottom: 15px;
 }
-.formulario{
+
+.formulario {
     display: flex;
     flex-direction: column;
     font-family: 'Patrick Hand', cursive;
@@ -103,17 +102,20 @@
     margin: 15px;
     color: whitesmoke;
 }
-  /*Puntos de venta*/
-  .bodyPuntos{
+
+/*Puntos de venta*/
+.bodyPuntos {
     background-color: #F2B544;
-  }
-  .puntoFlex{
+}
+
+.puntoFlex {
     display: flex;
     flex-direction: row;
     margin-bottom: 1.2cm;
     justify-content: space-around;
 }
-.titlePuntos{
+
+.titlePuntos {
     font-family: 'Patrick Hand', cursive;
     font-size: 2cm;
     font-weight: bold;
@@ -123,7 +125,7 @@
 
 }
 
-.puntosVenta{
+.puntosVenta {
     margin: 50px;
     display: flex;
     flex-direction: column;
@@ -133,15 +135,8 @@
     border-radius: 15px;
     padding: 10px;
 }
-.puntosVenta > h2{
-    font-family: 'Patrick Hand', cursive;
-    font-weight: bold;
-    font-size: 1cm;
-    margin: 5px;
-    text-align: center;
-    color: whitesmoke;
-}
-.puntosVenta > p{
+
+.puntosVenta>h2 {
     font-family: 'Patrick Hand', cursive;
     font-weight: bold;
     font-size: 1cm;
@@ -150,36 +145,47 @@
     color: whitesmoke;
 }
 
-.mapa{
+.puntosVenta>p {
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    font-size: 1cm;
+    margin: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.mapa {
     width: auto;
 }
 
 /*Nosotros*/
 
-.bodyUs{
+.bodyUs {
     background-color: #F2B544;
 }
-.flexNosotros > h3{
+
+.flexNosotros>h3 {
     color: black;
     font-family: 'Patrick Hand', cursive;
     font-size: 1.8cm;
     color: rgb(112, 48, 48)
 }
-.flexNosotros{
+
+.flexNosotros {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.tituloQuienes{
+.tituloQuienes {
     font-family: 'Patrick Hand', cursive;
     color: #F2B544;
     font-size: 3cm;
     text-align: center;
 }
 
-.quienes{
+.quienes {
     display: block;
     font-family: 'Patrick Hand', cursive;
     font-size: 0.8cm;
@@ -191,16 +197,16 @@
     padding: 10px;
     margin: 15px;
     color: whitesmoke;
-    
+
 }
 
-.quienes img{
+.quienes img {
     width: 100%;
     border: solid 3px;
-    border-radius: 3px;   
+    border-radius: 3px;
 }
 
-.fundadora{
+.fundadora {
     display: block;
     font-family: 'Patrick Hand', cursive;
     font-size: 0.8cm;
@@ -214,15 +220,15 @@
     color: whitesmoke;
 }
 
-.fundadora h3{
+.fundadora h3 {
     font-family: 'Patrick Hand', cursive;
     color: #F2B544;
     font-size: 1.5cm;
     text-align: center;
 }
 
-.fundadora img{
+.fundadora img {
     width: 100%;
     border: solid 3px;
-    border-radius: 3px;  
+    border-radius: 3px;
 }
