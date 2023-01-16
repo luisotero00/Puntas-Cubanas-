@@ -3,6 +3,9 @@
 @import "footer";
 @import "index";
 @import "carta";
+@import "contacto";
+@import "puntosdeventa";
+@import "nosotros";
 
 .grid {
     display: grid;
@@ -15,163 +18,8 @@
         "footer footer footer";
 }
 
-/*Carta*/
-/*Contacto*/
 
-.bodyContact {
-    background-color: #F2B544;
-}
 
-.contactanos {
-    background-color: rgb(112, 48, 48);
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 1.6cm;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.formulario {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Patrick Hand', cursive;
-    font-weight: bold;
-    background-color: rgb(112, 48, 48);
-    width: 390px;
-    border: black solid 2px;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 15px;
-    color: whitesmoke;
-}
-
-/*Puntos de venta*/
-.bodyPuntos {
-    background-color: #F2B544;
-}
-
-.puntoFlex {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.2cm;
-    justify-content: space-around;
-}
-
-.titlePuntos {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2cm;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgb(112, 48, 48);
-    color: whitesmoke;
-
-}
-
-.puntosVenta {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(112, 48, 48);
-    width: 600px;
-    border: black solid 2px;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.puntosVenta>h2 {
-    font-family: 'Patrick Hand', cursive;
-    font-weight: bold;
-    font-size: 1cm;
-    margin: 5px;
-    text-align: center;
-    color: whitesmoke;
-}
-
-.puntosVenta>p {
-    font-family: 'Patrick Hand', cursive;
-    font-weight: bold;
-    font-size: 1cm;
-    margin: 5px;
-    text-align: center;
-    color: whitesmoke;
-}
-
-.mapa {
-    width: auto;
-}
 
 /*Nosotros*/
 
-.bodyUs {
-    background-color: #F2B544;
-}
-
-.flexNosotros>h3 {
-    color: black;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 1.8cm;
-    color: rgb(112, 48, 48)
-}
-
-.flexNosotros {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.tituloQuienes {
-    font-family: 'Patrick Hand', cursive;
-    color: #F2B544;
-    font-size: 3cm;
-    text-align: center;
-}
-
-.quienes {
-    display: block;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 0.8cm;
-    font-weight: bold;
-    background-color: rgb(112, 48, 48);
-    width: 390px;
-    border: black solid 2px;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 15px;
-    color: whitesmoke;
-
-}
-
-.quienes img {
-    width: 100%;
-    border: solid 3px;
-    border-radius: 3px;
-}
-
-.fundadora {
-    display: block;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 0.8cm;
-    font-weight: bold;
-    background-color: rgb(112, 48, 48);
-    width: 390px;
-    border: black solid 2px;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 15px;
-    color: whitesmoke;
-}
-
-.fundadora h3 {
-    font-family: 'Patrick Hand', cursive;
-    color: #F2B544;
-    font-size: 1.5cm;
-    text-align: center;
-}
-
-.fundadora img {
-    width: 100%;
-    border: solid 3px;
-    border-radius: 3px;
-}

@@ -1,0 +1,59 @@
+.bodyPuntos {
+    background-color: #F2B544;
+
+    .titlePuntos {
+        font-family: 'Patrick Hand', cursive;
+        font-size: 2cm;
+        font-weight: bold;
+        text-align: center;
+        background-color: rgb(112, 48, 48);
+        color: whitesmoke;
+    }
+}
+
+.puntoFlex {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2cm;
+    justify-content: space-around;
+
+    .puntosVenta {
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(112, 48, 48);
+        width: 600px;
+        border: black solid 2px;
+        border-radius: 15px;
+        padding: 10px;
+
+        h2 {
+            font-family: 'Patrick Hand', cursive;
+            font-weight: bold;
+            font-size: 1cm;
+            margin: 5px;
+            text-align: center;
+            color: whitesmoke;
+        }
+
+        p {
+            font-family: 'Patrick Hand', cursive;
+            font-weight: bold;
+            font-size: 1cm;
+            margin: 5px;
+            text-align: center;
+            color: whitesmoke;
+        }
+        .mapa {
+            width: auto;
+        }
+    }
+}
+
+
+
+
+
+
+
+
