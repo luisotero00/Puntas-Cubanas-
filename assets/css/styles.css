@@ -176,7 +176,12 @@ footer > .textFooter {
   font-weight: bold;
   margin-bottom: 15px;
 }
-.bodyContact > .mainContact .formulario {
+.bodyContact > .mainContact > .forImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bodyContact > .mainContact > .forImg .formulario {
   display: flex;
   flex-direction: column;
   font-family: "Patrick Hand", cursive;
@@ -188,6 +193,10 @@ footer > .textFooter {
   padding: 10px;
   margin: 15px;
   color: whitesmoke;
+}
+.bodyContact > .mainContact > .forImg img {
+  width: 350px;
+  margin: 10px;
 }
 
 .bodyPuntos {
