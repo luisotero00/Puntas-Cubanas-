@@ -11,10 +11,12 @@
             font-weight: bold;
             margin-bottom: 15px;
         }
-        >.forImg{
+
+        >.forImg {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+
             .formulario {
                 display: flex;
                 flex-direction: column;
@@ -28,8 +30,8 @@
                 margin: 15px;
                 color: whitesmoke;
             }
-            
-            img{
+
+            img {
                 width: 350px;
                 margin: 10px;
             }
